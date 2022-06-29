@@ -91,10 +91,8 @@ const path = require('path');
 
 const app = express();
 
-//enter in the full directory to the project file
-
 //note do not type a slash at the end of the path
-const dir = "/Users/winstonwalter/Desktop/python-cli-tool/express-app-test";
+const dir = "/*enter directory to project file here*/";
 
 
 app.use(express.static(path.join(dir + "/views")))
@@ -117,10 +115,8 @@ const path = require('path');
 
 const app = express();
 
-//enter in the full directory to the project file
-
 //note do not type a slash at the end of the path
-const dir = "/Users/winstonwalter/Desktop/python-cli-tool/express-app-test";
+const dir = "/*enter directory to project file here*/";
 
 
 app.use(express.static(path.join(dir + "/views")))
